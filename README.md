@@ -52,4 +52,4 @@ The simulation can also run without the ESP32 connected.
 3. Drag the intensity bar or use the mouse wheel to adjust ripple strength.
 
 ## Project Blog
-For more about the concept, design decisions, and development process behind **Ripple**, visit my [Project Blog](https://app.notion.com/p/Module-2-Breadboarding-Sensing-Serial-Communication-3dc28368cff9800aa84ce5578ead6f66).
+For more about the concept, design decisions, and development process behind **Ripple**, visit my [Project Blog](https://plump-line-d3b.notion.site/Module-2-Breadboarding-Sensing-Serial-Communication-3dc28368cff9800aa84ce5578ead6f66?pvs=74).
