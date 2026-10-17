@@ -35,13 +35,14 @@
 ### Running the Project
 1. Open Terminal and navigate to the downloaded `Ripple` folder.
 2. Start a local web server:
-    ```bash
+
+   ```bash
     python3 -m http.server 8000
     ```
-3. Open Google Chrome and navigate to `http://localhost:8000`.
-4. Click **Connect ESP32** and select the ESP32 serial port.
-5. Use the joystick to position the cursor, the potentiometer to adjust ripple intensity, and the button to create ripples.
-6. Experiment with different ripple intensities and watch how the waves interact!
+4. Open Google Chrome and navigate to `http://localhost:8000`.
+5. Click **Connect ESP32** and select the ESP32 serial port.
+6. Use the joystick to position the cursor, the potentiometer to adjust ripple intensity, and the button to create ripples.
+7. Experiment with different ripple intensities and watch how the waves interact!
 
 ### Mouse Mode
 The simulation can also run without the ESP32 connected.
