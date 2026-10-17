@@ -26,11 +26,12 @@
 2. Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 3. Add ESP32 support to the IDE following the [Arduino-ESP32 installation guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
 4. Assemble the circuit using a breadboard, jumper wires, joystick, potentiometer, and push button. Follow the wiring diagram below for the exact pin connections:
-5. Connect the ESP32 to your computer using a USB cable.
-6. In the Arduino IDE, select the appropriate ESP32 board and serial port under **Tools**.
-7. Open `arduino/Ripple/Ripple.ino` and upload the sketch to the ESP32.
-8. Open the Serial Monitor at **9600 baud** to verify that the joystick, potentiometer, and button are sending readings.
-9. Close the Serial Monitor before connecting the ESP32 through Chrome.
+   <img width="5406" height="4055" alt="IMG_3317" src="https://github.com/user-attachments/assets/4a134249-bb8a-4c20-a492-6869c2e8f223" />
+6. Connect the ESP32 to your computer using a USB cable.
+7. In the Arduino IDE, select the appropriate ESP32 board and serial port under **Tools**.
+8. Open `arduino/Ripple/Ripple.ino` and upload the sketch to the ESP32.
+9. Open the Serial Monitor at **9600 baud** to verify that the joystick, potentiometer, and button are sending readings.
+10. Close the Serial Monitor before connecting the ESP32 through Chrome.
 
 ### Running the Project
 1. Open Terminal and navigate to the downloaded `Ripple` folder.
