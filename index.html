@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ripple</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+</head>
+
+<body>
+  <div id="hud">
+
+    <div class="hud-header"
+         onclick="document.getElementById('hud').classList.toggle('hide')">
+      <span>RIPPLE</span>
+      <span>▾</span>
+    </div>
+
+    <div id="body">
+      <div id="status">Mouse Mode</div>
+      <div class="coordinates">
+        <div class="coordinate">
+          <span>X Position</span>
+          <strong id="x-value">50%</strong>
+        </div>
+
+        <div class="coordinate">
+          <span>Y Position</span>
+          <strong id="y-value">50%</strong>
+        </div>
+      </div>
+
+      <div class="intensity-label">
+        <span>Ripple Intensity</span>
+        <span id="pot-value">55%</span>
+      </div>
+
+      <input type="range" id="intensity-slider" min="0" max="100" value="55">
+
+      <button id="connect">Connect ESP32</button>
+
+    </div>
+  </div>
+
+  <script src="js/water.js"></script>
+  <script src="js/controls.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
