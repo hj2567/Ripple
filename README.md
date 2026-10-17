@@ -35,7 +35,6 @@
 ### Running the Project
 1. Open Terminal and navigate to the downloaded `Ripple` folder.
 2. Start a local web server:
-
     ```bash
     python3 -m http.server 8000
     ```
