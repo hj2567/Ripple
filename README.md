@@ -26,6 +26,7 @@
 2. Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 3. Add ESP32 support to the IDE following the [Arduino-ESP32 installation guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
 4. Assemble the circuit using a breadboard, jumper wires, joystick, potentiometer, and push button. Follow the wiring diagram below for the exact pin connections:
+   
    <img width="650" height="auto" alt="IMG_3317" src="https://github.com/user-attachments/assets/4a134249-bb8a-4c20-a492-6869c2e8f223" />
 6. Connect the ESP32 to your computer using a USB cable.
 7. In the Arduino IDE, select the appropriate ESP32 board and serial port under **Tools**.
